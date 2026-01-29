@@ -1,4 +1,3 @@
-
 --------------------------------
 # Mini Python Analysis Projects
 
@@ -37,12 +36,32 @@ The projects are designed to help beginners understand:
   - Number of students passed/failed  
 - Ranks students by final score  
 
-> More mini projects will be added soon! 🚀
+### 3️⃣ Monthly Expenses Analyzer
+- Analyzes monthly expenses stored as a list of dictionaries (`name`, `category`, `amount`)  
+- Calculates **total expenses** for the month  
+- Groups expenses by **category**  
+- Finds the **highest spending category**  
+- Identifies the **biggest individual expense**  
+- Prints a structured report
 
----
+**Sample Data:**
+```python
+expenses = [
+    {"name": "Breakfast", "category": "food", "amount": 30},
+    {"name": "Lunch", "category": "food", "amount": 70},
+    {"name": "Coffee", "category": "entertainment", "amount": 40},
+    {"name": "Cinema", "category": "entertainment", "amount": 120},
+    {"name": "Transport", "category": "transport", "amount": 25},
+]
+Sample Output:
 
-## How to Run
+Food : 100
+Entertainment : 160
+Transport : 25
+--------------------------------------------------
+Highest category: Entertainment (160)
+--------------------------------------------------
+Biggest expense: Cinema (120)
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/mini-python-dataanalysis-projects.git
+
+Designed to practice loops, dictionaries, aggregation, and basic data analysis in Python.
